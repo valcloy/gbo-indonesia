@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grup Bukan Otoriter</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('/mnt/data/image.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .navbar {
+      background-color: #003366;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 28px;
+    }
+    .logo-title img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .nav-links {
+      margin-left: auto;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .content {
+      padding: 20px;
+    }
+    .section {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+    .post {
+      background-color: white;
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .post img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .post .text {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo-title">
+      <img src="https://media.licdn.com/dms/image/v2/D4D03AQEWF6ER74b6Gg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1687146621022?e=2147483647&v=beta&t=WStrlIs_FY3qFTk9vZoQ8J0s71-Vj_H8fcLdUHC-WAY" alt="Logo">
+      Grup Bukan Otoriter
+    </div>
+    <div class="nav-links">
+      <a onclick="showSection('profile')">Profil</a>
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('career')">Career</a>
+      <a onclick="showSection('contact')">Contact</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <div id="profile" class="section">
+      <h2>Profil</h2>
+      <div class="post">
+        <img src="https://mtsn1ptk.sch.id/assets/images/post/Fts-1721159082.jpeg" alt="MTsN 1 Pontianak">
+        <div class="text">
+          <p>Grup Bukan Otoriter adalah Organisasi Non-profit yang berdiri sejak 2014 di MTsN 1 Pontianak, terdiri dari beberapa orang-orang cerdas yang memiliki kepedulian tinggi terhadap isu sosial, lingkungan, dan pemberdayaan komunitas. Organisasi ini telah menyelenggarakan berbagai kegiatan positif dan berkolaborasi dengan berbagai pihak dalam rangka mendorong perubahan yang konstruktif di masyarakat.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="home" class="section active">
+      <h2>Beranda</h2>
+      <div class="post">
+        <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/99/2024/04/22/Ilustrasi-Billiard-Freepikcom-wirestock-3119885390.jpg" alt="Billiard">
+        <div class="text">
+          <h3>Agenda Main Billiard</h3>
+          <p>Kegiatan santai yang dilakukan oleh anggota sebagai bentuk penguatan solidaritas dan kebersamaan.</p>
+        </div>
+      </div>
+      <div class="post">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJ0YzntxvQN5ClVtdMlYOadiW177SKei8Cg&s" alt="Buka Bersama">
+        <div class="text">
+          <h3>Buka Bersama</h3>
+          <p>Kegiatan rutin tahunan untuk mempererat hubungan antar anggota selama bulan Ramadan.</p>
+        </div>
+      </div>
+      <div class="post">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFdjgqxsVp7kLT6N-PYQL9e86TqWkdlPc5pQ&s" alt="Ngepunk">
+        <div class="text">
+          <h3>Kegiatan Ngepunk</h3>
+          <p>Ekspresi kebebasan dan seni yang diangkat dari semangat komunitas untuk berekspresi secara kreatif.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="career" class="section">
+      <h2>Open Recruitment</h2>
+      <div class="post">
+        <img src="https://bsmsecurity.com/wp-content/uploads/2022/02/Recruitment-image-f84b4379.png" alt="Recruitment">
+        <div class="text">
+          <h3>Bergabunglah Bersama Kami!</h3>
+          <p>Grup Bukan Otoriter membuka lowongan bagi kamu yang ingin menjadi bagian dari perubahan sosial yang positif. Kami mencari anggota baru untuk mengisi posisi relawan dan koordinator program.</p>
+          <h4>Syarat:</h4>
+          <ul>
+            <li>Usia minimal 16 tahun</li>
+            <li>Memiliki semangat sosial dan jiwa kepemimpinan</li>
+            <li>Mampu bekerja dalam tim</li>
+            <li>Komitmen minimal 3 bulan</li>
+          </ul>
+          <h4>Tugas:</h4>
+          <ul>
+            <li>Mengorganisasi kegiatan sosial dan komunitas</li>
+            <li>Berkomunikasi dengan mitra eksternal</li>
+            <li>Mendokumentasikan kegiatan dan menyusun laporan</li>
+            <li>Memberikan ide-ide inovatif untuk program baru</li>
+          </ul>
+          <p>Jika kamu tertarik, silakan hubungi kami melalui kontak yang tersedia di halaman "Contact".</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>Kontak</h2>
+      <div class="post">
+        <div class="text">
+          <p><strong>Imam Syawaluddin</strong><br>
+          Tel: 0891638263839<br>
+          Email: imamganteng@gmail.com</p>
+          <p><strong>Faris Ruswandi</strong><br>
+          Tel: 08918736472348<br>
+          Email: farisimut@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(sec => sec.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
